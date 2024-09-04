@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    fieldset {
+    width: 400px;
+    height: 500px;
+    margin-right: auto;
+    text-align: center;
+    place-content: center;
+    }
+    </style>
+</head>
+<body>
+    <h1>로그인 창을 만들고 확인 버튼에 가져다 놓았을 때 이벤트 창이 뜨도록 만들기</h1>
+    <form>
+        <fieldset>
+            <h2>Login</h2>
+            <label><b>ID</b>&nbsp;</label><input type="id"><br><br>
+            <label><b>password</b>&nbsp;</label><input type="password"><br><br>
+            </div>
+        
+            <button type="button1"><b>취소</b></button></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onmouseover="hello('로그인')"><b>확인</b></button>
+        </fieldset>  
+    </form>
+    <script>
+        function hello(name) {
+            alert(`${name}성공!`);
+        }
+    </script>
+</body>
+</html>
